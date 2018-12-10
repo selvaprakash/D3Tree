@@ -386,7 +386,7 @@ function fetchFilter() {
 
 
   function configure() { 
-      const popupUrl = `./extensionDialog.html`;
+      const popupUrl = `https://selvaprakash.github.io//extensionDialog.html`;
     
       tableau.extensions.ui.displayDialogAsync(popupUrl, defaultIntervalInMin, { height: 500, width: 500 }).then((closePayload) => {
         $('#inactive').hide();
